@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace ProjectEuler.Problem1
+﻿namespace ProjectEuler.Problem1
 {
     public class Program
     {
