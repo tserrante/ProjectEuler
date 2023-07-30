@@ -1,13 +1,19 @@
 {
 	"folders": [
-		// {
-		// 	"path": "Problem1"
-		// },
-		// {
-		// 	"path": "Problem2"
-		// }
 		{
-			"path":"."
+			"path": "./Problem1/"
+		},
+		{
+			"path": "./Problem2/"
+		},
+		{
+			"path": "./Problem3/"
+		},
+		{
+			"path": "Problem4"
+		},
+		{
+			"path": "Problem5"
 		}
 	]
 }
