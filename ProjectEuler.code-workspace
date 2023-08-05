@@ -14,7 +14,10 @@
 		},
 		{
 			"path": "./Problem5"
-		}	
+		},
+		{
+			"path": "Problem6"
+		}
 	],
 	"settings": {
 		"dotnet.defaultSolution": "Problem1/Problem1.sln"
