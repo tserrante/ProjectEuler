@@ -23,6 +23,12 @@
 		},
 		{
 			"path": "Problem8"
+		},
+		{
+			"path": "Problem9"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Problem9"
+	}
 }
