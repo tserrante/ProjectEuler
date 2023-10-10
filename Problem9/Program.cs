@@ -1,8 +1,4 @@
-﻿
-using System.Reflection.Metadata;
-using System.Security.Cryptography;
-
-namespace ProjectEuler.Problem9;
+﻿namespace ProjectEuler.Problem9;
 
 /*
     a^2 + b^2 = c^2, a < b < c
