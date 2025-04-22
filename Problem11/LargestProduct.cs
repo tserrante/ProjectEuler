@@ -63,19 +63,19 @@ public class LargestProduct
                     rowProduct = numGrid[i][j] * numGrid[i][j + 1] * numGrid[i][j + 2] * numGrid[i][j + 3];
                 }
                 // column product
-                if(i + 3 < numGrid[i].Count)
+                if(i + 3 < numGrid.Count)
                 {
                     colProduct = numGrid[i][j] * numGrid[i + 1][j] * numGrid[i + 2][j] * numGrid[i + 3][j];
                 }
                 // left to right diagonal product
-                if(i + 3 < numGrid[i].Count && j + 3 < numGrid[i].Count)
+                if(i + 3 < numGrid.Count && j + 3 < numGrid[i].Count)
                 {
                     leftToRightDiagProduct = numGrid[i][j] * numGrid[i + 1][j + 1] * numGrid[i + 2][j + 2] * numGrid[i + 3][j + 3];
                 }
                 // right to left diagonal product
-                if(i - 3 >= 0 && j - 3 >= 0)
+                if(i + 3 < numGrid.Count && j - 3 >= 0)
                 {
-                    rightToLeftDiagProduct = numGrid[i][j] * numGrid[i - 1][j - 1] * numGrid[i - 2][j - 2] * numGrid[i - 3][j - 3];
+                    rightToLeftDiagProduct = numGrid[i][j] * numGrid[i + 1][j - 1] * numGrid[i + 2][j - 2] * numGrid[i + 3][j - 3];
                 }
 
                 int[] products = new int[] {rowProduct, colProduct, leftToRightDiagProduct, rightToLeftDiagProduct};
